@@ -1,0 +1,54 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'k'-GT-'{}
+      - default: fail
+        specializations:
+        - - kseq{}
+          - default: fail
+            specializations:
+            - - inj{SortExp{}, SortKItem{}}
+              - default: fail
+                specializations:
+                - - Lblmu'UndsStopUndsUnds'LAMBDA-SYNTAX'Unds'Exp'Unds'KVar'Unds'Exp{}
+                  - action:
+                    - 2930
+                    - - - ['1', '1']
+                        - STRING.String
+                      - - ['1', '0', '0', '1']
+                        - STRING.String
+                      - - ['0', '0', '0', '1']
+                        - STRING.String
+                      - - ['1', '0', '0', '0', '0', '1']
+                        - STRING.String
+                      - - ['0', '0', '0', '0', '0', '1']
+                        - KVAR.KVar
+                  - [KVAR.KVar, STRING.String]
+                sort: STRING.String
+                occurrence: ['0', '0', '0', '0', '1']
+              - [STRING.String]
+            - - inj{SortKVar{}, SortKItem{}}
+              - fail
+              - [KVAR.KVar]
+            - - inj{SortVal{}, SortKItem{}}
+              - fail
+              - [STRING.String]
+            - - inj{SortBool{}, SortKItem{}}
+              - fail
+              - [BOOL.Bool]
+            - - inj{SortInt{}, SortKItem{}}
+              - fail
+              - [INT.Int]
+            sort: STRING.String
+            occurrence: ['0', '0', '0', '1']
+          - [STRING.String, STRING.String]
+        sort: STRING.String
+        occurrence: ['0', '0', '1']
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

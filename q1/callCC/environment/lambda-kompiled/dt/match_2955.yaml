@@ -1,0 +1,135 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'T'-GT-'{}
+      - default: null
+        specializations:
+        - - Lbl'-LT-'store'-GT-'{}
+          - default: null
+            specializations:
+            - - Lbl'-LT-'env'-GT-'{}
+              - default: null
+                specializations:
+                - - Lbl'-LT-'k'-GT-'{}
+                  - default: fail
+                    specializations:
+                    - - kseq{}
+                      - next:
+                          args:
+                          - - &id001 ['0', '1', '0', '1']
+                            - MAP.Map
+                          - - &id002 [size, '0', '1', '0', '1']
+                            - STRING.String
+                          next:
+                            args:
+                            - - *id001
+                              - MAP.Map
+                            - - *id002
+                              - STRING.String
+                            next:
+                              default: null
+                              specializations:
+                              - - '1'
+                                - next:
+                                    args:
+                                    - - &id003 ['0', '2', '0', '1']
+                                      - MAP.Map
+                                    - - &id004 [size, '0', '2', '0', '1']
+                                      - STRING.String
+                                    next:
+                                      args:
+                                      - - *id003
+                                        - MAP.Map
+                                      - - *id004
+                                        - STRING.String
+                                      next:
+                                        default: null
+                                        specializations:
+                                        - - '1'
+                                          - action:
+                                            - 2955
+                                            - - - ['1', '1']
+                                                - STRING.String
+                                              - - ['1', '0', '0', '0', '1']
+                                                - STRING.String
+                                              - - ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_rem',
+                                                  '0', '1', '0', '1']
+                                                - MAP.Map
+                                              - - ['VariableP(Some(Value(VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS()),Num(0,Num(1,Num(0,Num(1,Base())))))),StringS())_rem',
+                                                  '0', '2', '0', '1']
+                                                - MAP.Map
+                                              - - ['1', '0', '1']
+                                                - STRING.String
+                                              - - ['2', '0', '1']
+                                                - STRING.String
+                                              - - ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_val',
+                                                  '0', '1', '0', '1']
+                                                - STRING.String
+                                              - - ['VariableP(Some(Value(VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS()),Num(0,Num(1,Num(0,Num(1,Base())))))),StringS())_val',
+                                                  '0', '2', '0', '1']
+                                                - STRING.String
+                                              - - &id005 ['0', '0', '0', '0', '1']
+                                                - STRING.String
+                                          - [STRING.String, MAP.Map, MAP.Map]
+                                        - - '0'
+                                          - fail
+                                          - [MAP.Map]
+                                        isnull: true
+                                        sort: STRING.String
+                                        occurrence: ['VariableP(Some(Value(VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS()),Num(0,Num(1,Num(0,Num(1,Base())))))),StringS())_val',
+                                          '0', '2', '0', '1']
+                                      function: hook_MAP_remove
+                                      sort: MAP.Map
+                                      occurrence: ['VariableP(Some(Value(VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS()),Num(0,Num(1,Num(0,Num(1,Base())))))),StringS())_rem',
+                                        '0', '2', '0', '1']
+                                    function: hook_MAP_lookup_null
+                                    sort: STRING.String
+                                    occurrence: ['VariableP(Some(Value(VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS()),Num(0,Num(1,Num(0,Num(1,Base())))))),StringS())_val',
+                                      '0', '2', '0', '1']
+                                  pattern:
+                                    hook: STRING.String
+                                    occurrence: ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_val',
+                                      '0', '1', '0', '1']
+                                  occurrence: *id004
+                                  sort: STRING.String
+                                - [STRING.String, MAP.Map, MAP.Map]
+                              - - '0'
+                                - fail
+                                - [MAP.Map]
+                              isnull: true
+                              sort: STRING.String
+                              occurrence: ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_val',
+                                '0', '1', '0', '1']
+                            function: hook_MAP_remove
+                            sort: MAP.Map
+                            occurrence: ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_rem',
+                              '0', '1', '0', '1']
+                          function: hook_MAP_lookup_null
+                          sort: STRING.String
+                          occurrence: ['VariableP(Some(Num(0,Num(0,Num(0,Num(0,Num(1,Base())))))),StringS())_val',
+                            '0', '1', '0', '1']
+                        pattern:
+                          hook: STRING.String
+                          occurrence: *id005
+                        occurrence: *id002
+                        sort: STRING.String
+                      - [STRING.String, STRING.String]
+                    sort: STRING.String
+                    occurrence: ['0', '0', '0', '1']
+                  - [STRING.String]
+                sort: STRING.String
+                occurrence: ['0', '0', '1']
+              - [MAP.Map]
+            sort: STRING.String
+            occurrence: ['1', '0', '1']
+          - [MAP.Map]
+        sort: STRING.String
+        occurrence: ['2', '0', '1']
+      - [STRING.String, STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

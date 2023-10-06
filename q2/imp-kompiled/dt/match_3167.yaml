@@ -1,0 +1,457 @@
+default: null
+specializations:
+- - Lbl'-LT-'generatedTop'-GT-'{}
+  - default: null
+    specializations:
+    - - Lbl'-LT-'T'-GT-'{}
+      - default: null
+        specializations:
+        - - Lbl'-LT-'threads'-GT-'{}
+          - next:
+              next:
+                default: null
+                specializations:
+                - - '0'
+                  - fail
+                  - [MAP.Map]
+                - - '1'
+                  - args:
+                    - - &id001 ['0', '0', '0', '1']
+                      - MAP.Map
+                    - - [key, '0', '0', '0', '1']
+                      - STRING.String
+                    next:
+                      args:
+                      - - *id001
+                        - MAP.Map
+                      - - [key, '0', '0', '0', '1']
+                        - STRING.String
+                      next:
+                        default: null
+                        specializations:
+                        - - Lbl'-LT-'id'-GT-'{}
+                          - default: null
+                            specializations:
+                            - - Lbl'-LT-'thread'-GT-'{}
+                              - default: null
+                                specializations:
+                                - - Lbl'-LT-'k'-GT-'{}
+                                  - default: null
+                                    specializations:
+                                    - - Lbl'-LT-'id'-GT-'{}
+                                      - default: fail
+                                        specializations:
+                                        - - dotk{}
+                                          - next:
+                                              next:
+                                                default: null
+                                                specializations:
+                                                - - '0'
+                                                  - fail
+                                                  - [MAP.Map]
+                                                - - '1'
+                                                  - args:
+                                                    - - &id002 [rem, '0', '0', '0',
+                                                        '1']
+                                                      - MAP.Map
+                                                    - - [key, rem, '0', '0', '0',
+                                                        '1']
+                                                      - STRING.String
+                                                    next:
+                                                      args:
+                                                      - - *id002
+                                                        - MAP.Map
+                                                      - - [key, rem, '0', '0', '0',
+                                                          '1']
+                                                        - STRING.String
+                                                      next:
+                                                        default: null
+                                                        specializations:
+                                                        - - Lbl'-LT-'thread'-GT-'{}
+                                                          - default: null
+                                                            specializations:
+                                                            - - Lbl'-LT-'k'-GT-'{}
+                                                              - default: fail
+                                                                specializations:
+                                                                - - kseq{}
+                                                                  - default: fail
+                                                                    specializations:
+                                                                    - - inj{SortStmt{},
+                                                                        SortKItem{}}
+                                                                      - default: fail
+                                                                        specializations:
+                                                                        - - Lbljoin'UndsSClnUnds'IMP-SYNTAX'Unds'Stmt'Unds'AExp{}
+                                                                          - default: fail
+                                                                            specializations:
+                                                                            - - inj{SortInt{},
+                                                                                SortAExp{}}
+                                                                              - args:
+                                                                                - - &id005 [
+                                                                                    '0',
+                                                                                    key,
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '1']
+                                                                                  - INT.Int
+                                                                                - - &id003 [
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    val,
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '1']
+                                                                                  - INT.Int
+                                                                                next:
+                                                                                  default: null
+                                                                                  specializations:
+                                                                                  - - '1'
+                                                                                    - args:
+                                                                                      - - *id003
+                                                                                        - INT.Int
+                                                                                      - - [
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1',
+                                                                                          val,
+                                                                                          rem,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1']
+                                                                                        - INT.Int
+                                                                                      next:
+                                                                                        default: null
+                                                                                        specializations:
+                                                                                        - - '1'
+                                                                                          - args:
+                                                                                            - - &id004 [
+                                                                                                key,
+                                                                                                rem,
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '1']
+                                                                                              - STRING.String
+                                                                                            - - [
+                                                                                                '0',
+                                                                                                val,
+                                                                                                rem,
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '1']
+                                                                                              - STRING.String
+                                                                                            next:
+                                                                                              default: null
+                                                                                              specializations:
+                                                                                              - - '1'
+                                                                                                - action:
+                                                                                                  - 3167
+                                                                                                  - - - [
+                                                                                                        '1',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        rem,
+                                                                                                        rem,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - MAP.Map
+                                                                                                    - - [
+                                                                                                        '2',
+                                                                                                        val,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '1',
+                                                                                                        val,
+                                                                                                        rem,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - *id004
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '2',
+                                                                                                        val,
+                                                                                                        rem,
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '1',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '2',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - [
+                                                                                                        '3',
+                                                                                                        '0',
+                                                                                                        '1']
+                                                                                                      - STRING.String
+                                                                                                    - - *id005
+                                                                                                      - INT.Int
+                                                                                                - []
+                                                                                              - - '0'
+                                                                                                - fail
+                                                                                                - []
+                                                                                              bitwidth: 1
+                                                                                              sort: BOOL.Bool
+                                                                                              occurrence: [
+                                                                                                eq,
+                                                                                                key,
+                                                                                                rem,
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '1',
+                                                                                                and,
+                                                                                                '0',
+                                                                                                val,
+                                                                                                rem,
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '0',
+                                                                                                '1']
+                                                                                            function: hook_KEQUAL_eq
+                                                                                            sort: BOOL.Bool
+                                                                                            occurrence: [
+                                                                                              eq,
+                                                                                              key,
+                                                                                              rem,
+                                                                                              '0',
+                                                                                              '0',
+                                                                                              '0',
+                                                                                              '1',
+                                                                                              and,
+                                                                                              '0',
+                                                                                              val,
+                                                                                              rem,
+                                                                                              '0',
+                                                                                              '0',
+                                                                                              '0',
+                                                                                              '1']
+                                                                                          - []
+                                                                                        - - '0'
+                                                                                          - fail
+                                                                                          - []
+                                                                                        bitwidth: 1
+                                                                                        sort: BOOL.Bool
+                                                                                        occurrence: [
+                                                                                          eq,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          val,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1',
+                                                                                          and,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1',
+                                                                                          val,
+                                                                                          rem,
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '0',
+                                                                                          '1']
+                                                                                      function: hook_INT_eq
+                                                                                      sort: BOOL.Bool
+                                                                                      occurrence: [
+                                                                                        eq,
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        val,
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '1',
+                                                                                        and,
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '1',
+                                                                                        val,
+                                                                                        rem,
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '0',
+                                                                                        '1']
+                                                                                    - []
+                                                                                  - - '0'
+                                                                                    - fail
+                                                                                    - []
+                                                                                  bitwidth: 1
+                                                                                  sort: BOOL.Bool
+                                                                                  occurrence: [
+                                                                                    eq,
+                                                                                    '0',
+                                                                                    key,
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '1',
+                                                                                    and,
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    val,
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '0',
+                                                                                    '1']
+                                                                                function: hook_INT_eq
+                                                                                sort: BOOL.Bool
+                                                                                occurrence: [
+                                                                                  eq,
+                                                                                  '0',
+                                                                                  key,
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '1',
+                                                                                  and,
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  val,
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '0',
+                                                                                  '1']
+                                                                              - [
+                                                                                INT.Int]
+                                                                            sort: STRING.String
+                                                                            occurrence: [
+                                                                              '0',
+                                                                              '0',
+                                                                              '0',
+                                                                              '0',
+                                                                              '1',
+                                                                              val,
+                                                                              rem,
+                                                                              '0',
+                                                                              '0',
+                                                                              '0',
+                                                                              '1']
+                                                                          - [STRING.String]
+                                                                        sort: STRING.String
+                                                                        occurrence: [
+                                                                          '0', '0',
+                                                                          '0', '1',
+                                                                          val, rem,
+                                                                          '0', '0',
+                                                                          '0', '1']
+                                                                      - [STRING.String]
+                                                                    - - inj{SortBlock{},
+                                                                        SortKItem{}}
+                                                                      - fail
+                                                                      - [STRING.String]
+                                                                    sort: STRING.String
+                                                                    occurrence: [
+                                                                      '0', '0', '1',
+                                                                      val, rem, '0',
+                                                                      '0', '0', '1']
+                                                                  - [STRING.String,
+                                                                    STRING.String]
+                                                                sort: STRING.String
+                                                                occurrence: ['0',
+                                                                  '1', val, rem, '0',
+                                                                  '0', '0', '1']
+                                                              - [STRING.String]
+                                                            sort: STRING.String
+                                                            occurrence: ['1', val,
+                                                              rem, '0', '0', '0',
+                                                              '1']
+                                                          - [STRING.String, STRING.String,
+                                                            STRING.String]
+                                                        sort: STRING.String
+                                                        occurrence: [val, rem, '0',
+                                                          '0', '0', '1']
+                                                      function: hook_MAP_remove
+                                                      sort: MAP.Map
+                                                      occurrence: [rem, rem, '0',
+                                                        '0', '0', '1']
+                                                    function: hook_MAP_lookup
+                                                    sort: STRING.String
+                                                    occurrence: [val, rem, '0', '0',
+                                                      '0', '1']
+                                                  - [STRING.String, STRING.String,
+                                                    MAP.Map]
+                                                isnull: true
+                                                sort: STRING.String
+                                                occurrence: [key, rem, '0', '0', '0',
+                                                  '1']
+                                              iterator: *id002
+                                              function: map_iterator_next
+                                              binding: [key, rem, '0', '0', '0', '1']
+                                              sort: STRING.String
+                                            function: map_iterator
+                                            collection: *id002
+                                            sort: MAP.Map
+                                          - []
+                                        sort: STRING.String
+                                        occurrence: ['0', '1', val, '0', '0', '0',
+                                          '1']
+                                      - [INT.Int]
+                                    sort: STRING.String
+                                    occurrence: ['0', val, '0', '0', '0', '1']
+                                  - [STRING.String]
+                                sort: STRING.String
+                                occurrence: ['1', val, '0', '0', '0', '1']
+                              - [STRING.String, STRING.String, STRING.String]
+                            sort: STRING.String
+                            occurrence: [val, '0', '0', '0', '1']
+                          - [INT.Int]
+                        sort: STRING.String
+                        occurrence: [key, '0', '0', '0', '1']
+                      function: hook_MAP_remove
+                      sort: MAP.Map
+                      occurrence: [rem, '0', '0', '0', '1']
+                    function: hook_MAP_lookup
+                    sort: STRING.String
+                    occurrence: [val, '0', '0', '0', '1']
+                  - [STRING.String, STRING.String, MAP.Map]
+                isnull: true
+                sort: STRING.String
+                occurrence: [key, '0', '0', '0', '1']
+              iterator: *id001
+              function: map_iterator_next
+              binding: [key, '0', '0', '0', '1']
+              sort: STRING.String
+            function: map_iterator
+            collection: *id001
+            sort: MAP.Map
+          - [MAP.Map]
+        sort: STRING.String
+        occurrence: ['0', '0', '1']
+      - [STRING.String, STRING.String, STRING.String, STRING.String]
+    sort: STRING.String
+    occurrence: ['0', '1']
+  - [STRING.String, STRING.String]
+sort: STRING.String
+occurrence: ['1']

@@ -1,0 +1,18 @@
+default: fail
+specializations:
+- - inj{SortIds{}, SortAExps{}}
+  - default: fail
+    specializations:
+    - - inj{SortId{}, SortAExp{}}
+      - action:
+        - 3098
+        - - - ['0', '1']
+            - STRING.String
+          - - ['0', '2']
+            - STRING.String
+      - [STRING.String]
+    sort: STRING.String
+    occurrence: ['1']
+  - [STRING.String]
+sort: STRING.String
+occurrence: ['2']
